@@ -17,7 +17,7 @@ class Test_002_Login_data_driven:
     path = ".//TestData//login_data.xlsx"
     status_list = []
 
-
+    @pytest.mark.sanity
     def test_Valid_Login_data_driven(self,setup):
         self.logger.info("***************** Verify Login Test ********************")
         self.driver = setup

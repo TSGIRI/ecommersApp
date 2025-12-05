@@ -2,6 +2,7 @@
 import random
 import string
 
+
 def random_generator(size=8, chars=string.ascii_lowercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
@@ -15,3 +16,8 @@ print("12-char string:", random_generator(12))
 email = random_generator(10) + "@test.com"
 print("Generated Email:", email)
 
+def add_sum(a, b):
+    return a+b
+
+x = add_sum(3,5)
+print(x)

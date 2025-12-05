@@ -17,6 +17,8 @@ class Test_001_Login:
     invalied_email = ReadConfig.getInvalieduseremail()
     logger = LogGen.log_gen()
 
+    @pytest.mark.sanity
+    @pytest.mark.regression
     def test_homePageTitle(self,setup):
         #self.driver = webdriver.Chrome()
         self.logger.info("***************** Test_001_Login ********************")
@@ -33,7 +35,7 @@ class Test_001_Login:
             self.logger.error("***************** Home Page Title is Fail ********************")
             self.driver.close()
             assert False
-
+    @pytest.mark.regression
     def test_Valid_Login(self,setup):
         self.logger.info("***************** Verify Login Test ********************")
         self.driver = setup
@@ -59,7 +61,7 @@ class Test_001_Login:
             self.driver.close()
             self.logger.info("***************** Login test is Fail ********************")
             assert False
-
+    @pytest.mark.sanity
     def test_InValid_Login(self,setup):
         self.logger.info("***************** Verify invalid Login Test ********************")
         self.driver = setup
