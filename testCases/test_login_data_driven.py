@@ -25,7 +25,7 @@ class Test_002_Login_data_driven:
         self.driver.get(self.baseURL)
         self.driver.maximize_window()
         time.sleep(5)
-        self.lp = Login_Page(self.driver)  # create a object for LoginPage
+        self.lp = Login_Page(self.driver)  # create  object for LoginPage
 
         self.rows = excelUtils.get_row_count(self.path,"Sheet1")
         print("number of rows: ",self.rows)

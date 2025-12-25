@@ -171,3 +171,32 @@
 2025-12-04 23:33:15 INFO ***************** Login Test is Fail ********************
 2025-12-04 23:33:15 INFO ***************** End of Login DDT Test ********************
 2025-12-04 23:33:15 INFO ***************** Completed test_Valid_Login_data_driven ********************
+2025-12-05 01:36:29 INFO ***************** Test_001_Login ********************
+2025-12-05 01:36:29 INFO ***************** Verify Home Page Title ********************
+2025-12-05 01:36:39 INFO ***************** Home Page Title is Pass ********************
+2025-12-05 01:36:42 INFO ***************** Verify Login Test ********************
+2025-12-05 01:36:58 INFO ***************** Login Test is Pass ********************
+2025-12-05 01:37:04 INFO ***************** Verify invalid Login Test ********************
+2025-12-05 01:37:18 INFO ***************** invalid Login Test is Pass ********************
+2025-12-05 01:37:21 INFO ***************** Verify Login Test ********************
+2025-12-05 01:37:35 INFO ***************** Login Test is Pass ********************
+2025-12-05 01:37:42 INFO ***************** Login Test is Fail ********************
+2025-12-05 01:37:42 INFO ***************** End of Login DDT Test ********************
+2025-12-05 01:37:42 INFO ***************** Completed test_Valid_Login_data_driven ********************
+2025-12-05 01:43:30 INFO ***************** Test_001_Login ********************
+2025-12-05 01:43:30 INFO ***************** Verify Home Page Title ********************
+2025-12-05 01:43:37 INFO ***************** Home Page Title is Pass ********************
+2025-12-05 01:43:40 INFO ***************** Verify Login Test ********************
+2025-12-05 01:43:53 INFO ***************** Login Test is Pass ********************
+2025-12-24 00:24:38 WARNING The chromedriver version (142.0.7444.59) detected in PATH at C:\Program Files\Python313\Scripts\chromedriver.exe might not be compatible with the detected chrome version (143.0.7499.147); currently, chromedriver 143.0.7499.169 is recommended for chrome 143.*, so it is advised to delete the driver in PATH and retry
+2025-12-24 00:24:41 INFO ***************** Verify Login Test ********************
+2025-12-24 00:24:56 INFO ***************** Login Test is Pass ********************
+2025-12-24 00:25:00 INFO ***************** Login Test is Fail ********************
+2025-12-24 00:25:00 INFO ***************** End of Login DDT Test ********************
+2025-12-24 00:25:00 INFO ***************** Completed test_Valid_Login_data_driven ********************
+2025-12-24 00:26:48 WARNING The chromedriver version (142.0.7444.59) detected in PATH at C:\Program Files\Python313\Scripts\chromedriver.exe might not be compatible with the detected chrome version (143.0.7499.147); currently, chromedriver 143.0.7499.169 is recommended for chrome 143.*, so it is advised to delete the driver in PATH and retry
+2025-12-24 00:26:50 INFO ***************** Verify Login Test ********************
+2025-12-24 00:27:04 INFO ***************** Login Test is Pass ********************
+2025-12-24 00:27:08 INFO ***************** Login Test is Fail ********************
+2025-12-24 00:27:08 INFO ***************** End of Login DDT Test ********************
+2025-12-24 00:27:08 INFO ***************** Completed test_Valid_Login_data_driven ********************

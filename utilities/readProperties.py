@@ -21,6 +21,6 @@ class ReadConfig:
         return password
 
     @staticmethod
-    def getInvalieduseremail():
-        invalied_email = config.get('common info', 'invalied_email')
-        return invalied_email
+    def getInvaliduseremail():
+        invalid_email = config.get('common info', 'invalid_email')
+        return invalid_email

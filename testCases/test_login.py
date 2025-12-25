@@ -7,14 +7,16 @@ from pageObjects.LoginPage import Login_Page
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 
-
+# execute the test cases with marker
+# pytest -m "sanity"  --> runs all sanity test cases
+# pytest -s -v -m "sanity" --html=Reports\report.html testCases/test_login_data_driven.py --browser chrome
 class Test_001_Login:
 
     # Read the data from config file   (from utilities.readProperties import ReadConfig)
     baseURL = ReadConfig.getApplicationURL()
     useremail = ReadConfig.getUseremail()
     password = ReadConfig.getPassword()
-    invalied_email = ReadConfig.getInvalieduseremail()
+    invalid_email = ReadConfig.getInvaliduseremail()
     logger = LogGen.log_gen()
 
     @pytest.mark.sanity
@@ -35,6 +37,7 @@ class Test_001_Login:
             self.logger.error("***************** Home Page Title is Fail ********************")
             self.driver.close()
             assert False
+
     @pytest.mark.regression
     def test_Valid_Login(self,setup):
         self.logger.info("***************** Verify Login Test ********************")
@@ -61,6 +64,7 @@ class Test_001_Login:
             self.driver.close()
             self.logger.info("***************** Login test is Fail ********************")
             assert False
+
     @pytest.mark.sanity
     def test_InValid_Login(self,setup):
         self.logger.info("***************** Verify invalid Login Test ********************")
